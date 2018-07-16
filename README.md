@@ -6,3 +6,22 @@ Recuerda usar el comando:
  npm install
 
  Para poder ejecutar la aplicaciòn.
+
+ ejemplo:
+
+ Desde una terminal accede a la ubicación del archivo app.js ejecuta el comando para:
+
+ crear:
+ node app crear -d "tarea a realizar"
+
+ actualizar:
+ node app actualizar -d "tarea" -c estado (true o false)
+
+ listar:
+ node app listar
+
+eliminar:
+node app borrar -d "tarea"
+
+
+
